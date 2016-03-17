@@ -32,7 +32,7 @@
     <script src="js/vendor/modernizr.custom.js"></script>
 
     <!-- Google Map API -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDySogX5C9N6fjkcOYFhZhtzhCiPuH6uyc"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key="AIzaSyCINPxHXSrCmBnY6KkmNeQIJfj2UcLvbIg"></script>
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,6 +41,23 @@
 </head>
 
 <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="57">
+                <script>
+                    function initMap() {
+                     var myLatLng = {lat: -1.291115, lng: 36.782911};
+                     var map = new google.maps.Map(document.getElementById('map'), {
+                     zoom: 16,
+                     center: myLatLng
+                     });
+                     var marker = new google.maps.Marker({
+                     position: myLatLng,
+                     map: map,
+                     title: 'Hello World!'
+                     });
+                    }
+                </script>
+                 <script async defer
+                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCINPxHXSrCmBnY6KkmNeQIJfj2UcLvbIg&callback=initMap">
+                </script>
 
     <!-- BEGIN OF PRELOADER -->
     <div id="preloader">
@@ -541,7 +558,8 @@
             <span class="under-title"></span>
         </div>
 
-        <div id="map"></div>
+        <div id="map">                   
+        </div>
         <div class="container">
             <div class="contact-wrapper">
                 <div class="col-md-6 contact-form">
@@ -570,10 +588,10 @@
                 <div class="col-md-5 col-md-offset-1">
                     <div class="information" data-scroll-reveal="enter right">
                         <div class="sep clearfix"></div>
-                        <span class="address"><i class="pe-7s-map-marker"></i>Henry Dunant p.n. 10000 Prishtine</span>
-                        <span class="phone"><i class="pe-7s-call"></i>+00 111 222 / mob. 000 111 222</span>
-                        <span class="email"><i class="pe-7s-mail"></i>email@website.com</span>
-                        <span class="website"><i class="pe-7s-global"></i>www.website.com</span>
+                        <span class="address"><i class="pe-7s-map-marker"></i>Galana Plaza 8th floor</span>
+                        <span class="phone"><i class="pe-7s-call"></i>+254 703 991 991</span>
+                        <span class="email"><i class="pe-7s-mail"></i>info@swype.co.ke</span>
+                        <span class="website"><i class="pe-7s-global"></i>www.swype.co.ke</span>
                     </div>
 
                 </div>
@@ -587,16 +605,16 @@
         <div class="container">
             <div class="social-icons">
                 <div class="social-icon">
-                    <a class="circle-social" href="http://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="circle-social" href="https://www.facebook.com/Swype-Kenya-617205195049603/timeline" target="_blank"><i class="fa fa-facebook"></i></a>
                     <a class="circle-social" href="http://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a class="circle-social" href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    <!--<a class="circle-social" href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
                     <a class="circle-social" href="http://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a class="circle-social" href="http://pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a>
+                    <a class="circle-social" href="http://pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a>-->
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright &copy; 2014 - <a href="http://www.elitefingers.com/" target="_blank">EliteFingers</a></p>
+            <p>Copyright &copy; 2016 - <a href="http://swype.co.ke/" target="_blank">Swype</a></p>
         </div>
     </div>
     <!-- END OF FOOTER -->
