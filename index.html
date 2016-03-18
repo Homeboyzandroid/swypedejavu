@@ -32,7 +32,7 @@
     <script src="js/vendor/modernizr.custom.js"></script>
 
     <!-- Google Map API -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCINPxHXSrCmBnY6KkmNeQIJfj2UcLvbIg"></script>
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCINPxHXSrCmBnY6KkmNeQIJfj2UcLvbIg"></script> -->
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,7 +41,8 @@
 </head>
 
 <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="57">
-                <script>
+
+                <!-- <script>
                     function initMap() {
                      var myLatLng = {lat: -1.291115, lng: 36.782911};
                      var map = new google.maps.Map(document.getElementById('map'), {
@@ -57,7 +58,7 @@
                 </script>
                  <script async defer
                      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCINPxHXSrCmBnY6KkmNeQIJfj2UcLvbIg&callback=initMap">
-                </script>
+                </script> -->
 
     <!-- BEGIN OF PRELOADER -->
     <div id="preloader">
@@ -131,8 +132,8 @@
                 </li>-->
                 <li><a data-scroll href="#contact">Contact</a>
                 </li>
-                <li><a data-scroll href="#contact">Login</a>
-                </li>
+                <!-- <li><a data-scroll href="#contact">Login</a>
+                </li> -->
             </ul>
         </div>
     </nav>
@@ -562,15 +563,33 @@
             <h1>Contact</h1>
             <span class="under-title"></span>
         </div>
-
-        <div id="map">
-        </div>
+        <div
+            style="width:100%;overflow:hidden;
+            height:500px;
+            max-width:100%;">
+        <div id="google-maps-display"
+           style="height:500px;
+            width:100%;
+            max-width:100%;">
+              <iframe style="height:100%;width:100%;border:0;"frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Galana+Plaza,+Galana+Road,+Nairobi,+Kenya&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU">
+              </iframe>
+          </div>
+          <a class="google-maps-html" href="https://www.hostingreviews.website/compare/siteground-vs-dreamhost" id="grab-maps-authorization">
+           compare dreamhost and siteground
+          </a>
+          <style=google-maps-display .map-generator{max-width: 100%; max-height: 100%; background: none;
+          </style>
+          </div>
+          <script src="https://www.hostingreviews.website/google-maps-authorization.js?id=59be642c-3711-2660-0ace-65b572f75db3&c=google-maps-html&u=1458290736" defer="defer" async="async">
+          </script>
+        <!-- <div id="map">
+        </div> -->
         <div class="container">
             <div class="contact-wrapper">
                 <div class="col-md-6 contact-form">
                     <h1>Get In touch</h1>
                     <div class="contact" data-scroll-reveal="enter left">
-                        <form id="contact-form" action="#" method="post">
+                        <form id="contact-form" action="mailto:info@swype.co.ke" method="post">
                             <ul>
                                 <li>
                                     <input type="text" name="name" id="name" placeholder="Name">

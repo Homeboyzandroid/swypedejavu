@@ -15,7 +15,7 @@ html, body {
 	margin: 0;
     height:100%;
     font-family: 'Raleway', sans-serif;
-  } 
+  }
 
 
 /*Begin of General*/
@@ -137,7 +137,7 @@ section{
 
 .content-header{
 	position:absolute;
-    top:50%; 
+    top:50%;
     left: 0;
     right: 0;
 	height:10em;
@@ -145,20 +145,20 @@ section{
 }
 
  .menu-active{
-	background: #b7bbc2; 
+	background: #b7bbc2;
 	color: #192537;
 }
 
 
-.bgEffects { 
-    color:#FFF; 
-    margin: 0 auto; 
-    width: 100%; 
-    max-width: 1920px; 
-    position: relative; 
-    min-height: 100%; 
-    text-shadow:0 0 10px rgba(0,0,0,0.7); 
-} 
+.bgEffects {
+    color:#FFF;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    min-height: 100%;
+    text-shadow:0 0 10px rgba(0,0,0,0.7);
+}
 
 
 .background {
@@ -170,7 +170,7 @@ section{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover !important;;
-} 
+}
 
 
 .text-wrapper span{
@@ -198,10 +198,10 @@ section{
 }
 
 .bgEffect {
-    width: 100%; 
-    text-align: center; 
-    margin:0 auto; 
-} 
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+}
 
 .skills{
 	padding-top: 100px;
@@ -232,7 +232,7 @@ section{
 .ef-content {
     position: relative;
     width: 100%;
-    
+
     /* background-size: cover; */
     height: 100%;
     overflow: hidden;
@@ -324,7 +324,7 @@ a.navbar-brand a:hover{
 }
 
 .nav>li>a {
-	border-left: 1px solid #b7bbc2; 
+	border-left: 1px solid #b7bbc2;
 }
 
 
@@ -355,7 +355,7 @@ a.navbar-brand a:hover{
 
  }
 
- 
+
  .content h1{
  	font-size: 24px;
  	color: #797979;
@@ -422,7 +422,7 @@ a.navbar-brand a:hover{
 	text-transform: uppercase;
 
 
-	
+
 }
 .circle-services p{
 	color: #fff;
@@ -439,7 +439,7 @@ a.navbar-brand a:hover{
 	font-size: 50px;
 	border: 2px solid white;
 	padding: 25px;
-	border-radius: 50%; 
+	border-radius: 50%;
 	line-height: 68px;
 	cursor: pointer;
 	width: 120px;
@@ -478,14 +478,14 @@ a.navbar-brand a:hover{
 
 /*Begin of About*/
 .about-icons{}
-.about-service{ 
+.about-service{
 	text-align: center;
 	margin-top: 20px;
 }
-.about-service i{ 
+.about-service i{
 	font-size: 28px;
-	border: 1px solid #192537; 
-	background: #192537; 
+	border: 1px solid #192537;
+	background: #192537;
 	color: #fff;
 	padding: 30px;
 	-webkit-transition: all 0.5s ease;
@@ -495,12 +495,12 @@ a.navbar-brand a:hover{
 	transition: all 0.5s ease;
 
 }
-.about-service i:hover{ 
+.about-service i:hover{
 	background: #fff;
-	border: 1px solid #192537; 
+	border: 1px solid #192537;
 	border-radius: 5px;
 	color: #192537;
-	padding: 30px 
+	padding: 30px
 }
 .about-service span{
 	display: block;
@@ -548,7 +548,7 @@ a.navbar-brand a:hover{
 
 
 /*Filter Portfolio*/
-.tabs ul{ 
+.tabs ul{
 	text-align: center;
 	padding: 0;
 }
@@ -687,7 +687,7 @@ a.navbar-brand a:hover{
 	width: 240px;
 	height: 240px;
 	margin: 0 auto;
-	
+
 }
 
 .member-overlay{
@@ -760,7 +760,7 @@ span.social i, span.social a{
 
  .contact ul{
  	padding: 0;
- } 
+ }
 
  .contact ul li{
  	display: block;
@@ -785,7 +785,7 @@ span.social i, span.social a{
   .contact ul li input{
  	width: 100%;
  	height: 50px;
- 	
+
 
  }
 
@@ -806,7 +806,7 @@ span.social i, span.social a{
  }
 
 
- .btnsend { 
+ .btnsend {
 	background-position: 24px 14px;
 	background-repeat: no-repeat;
 	border: 0px;
@@ -814,7 +814,7 @@ span.social i, span.social a{
 	outline: 0;
 	background-color: #34495e;
  }
- .btnsend:hover{ 
+ .btnsend:hover{
        background-position: 40px 2px;
  }
 
@@ -841,7 +841,7 @@ span.social i, span.social a{
 
 .information span i{
 	margin-right: 15px;
-	font-size: 20px;	
+	font-size: 20px;
 }
 
 
@@ -875,7 +875,7 @@ a.circle-social {
 }
 
 a.circle-social:hover {
-	
+
 	border: 1px solid #192537;
 	background: #fff;
 	color: #192537;
@@ -889,7 +889,7 @@ a.circle-social:hover {
 	text-align: center;
 	margin-top: 20px;
     margin: 0;
-    padding-top: 10px;    
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 .copyright a{
@@ -918,8 +918,8 @@ a.circle-social:hover {
     left:0;
     right:0;
     bottom:0;
-    background-color:#fff; 
-    z-index:99999999; 
+    background-color:#fff;
+    z-index:99999999;
 }
 
 
@@ -945,22 +945,22 @@ div.test{
 .owl-theme .owl-controls .owl-buttons div {
   padding: 5px 9px;
 }
- 
+
 .owl-theme .owl-buttons i{
   margin-top: 2px;
 }
- 
+
 //To move navigation buttons outside use these settings:
- 
+
 .owl-theme .owl-controls .owl-buttons div {
   position: absolute;
 }
- 
+
 .owl-theme .owl-controls .owl-buttons .owl-prev{
   left: -45px;
-  top: 55px; 
+  top: 55px;
 }
- 
+
 .owl-theme .owl-controls .owl-buttons .owl-next{
   right: -45px;
   top: 55px;
@@ -1000,7 +1000,7 @@ div.test{
 		display: block;
 		margin-top: 5px;
 		padding-top: 0;
-		padding-bottom:0; 
+		padding-bottom:0;
 	}
 
 	#map{
